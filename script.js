@@ -64,7 +64,7 @@ function displayWord() {
 
 function updateWrongLettersElement() {
   wrongLettersElement.innerHTML = `
-  ${wrongLetters.length > 0 ? "<p>Wrong</p>" : ""}
+  ${wrongLetters.length > 0 ? "<p>Pogrešno slovo</p>" : ""}
   ${wrongLetters.map((letter) => `<span>${letter}</span>`)}
   `;
   figureParts.forEach((part, index) => {
